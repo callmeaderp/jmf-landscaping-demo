@@ -1,0 +1,708 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JMF Landscaping, LLC | Rochester NY Landscaping & Hardscaping</title>
+    <meta name="description" content="Full-service landscaping company serving Greater Rochester, NY for over 15 years. Paver patios, retaining walls, landscape design, lawn maintenance, and more." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='28' font-size='28'%3E%F0%9F%8C%BF%3C/text%3E%3C/svg%3E" />
+  </head>
+  <body class="bg-warm-white font-body text-bark antialiased">
+
+    <!-- ═══════════ NAVIGATION ═══════════ -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-20">
+          <!-- Logo -->
+          <a href="#hero" class="flex items-center gap-3 group">
+            <div class="w-10 h-10 bg-earth rounded-lg flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+              <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22c-4-3-8-6-8-10a8 8 0 0116 0c0 4-4 7-8 10z"/><path d="M12 2c-2 4-1 8 0 10s2 4 0 6"/><path d="M9 8c2 1 4 1 6 0"/></svg>
+            </div>
+            <div>
+              <span class="text-xl font-heading font-bold tracking-tight text-white group-hover:text-earth-light transition-colors">JMF</span>
+              <span class="hidden sm:inline text-sm text-white/70 ml-1 font-light">Landscaping</span>
+            </div>
+          </a>
+
+          <!-- Desktop nav -->
+          <div class="hidden lg:flex items-center gap-8">
+            <a href="#services" class="nav-link text-sm font-medium text-white/90 hover:text-earth-light transition-colors">Services</a>
+            <a href="#about" class="nav-link text-sm font-medium text-white/90 hover:text-earth-light transition-colors">About</a>
+            <a href="#gallery" class="nav-link text-sm font-medium text-white/90 hover:text-earth-light transition-colors">Gallery</a>
+            <a href="#hardscape" class="nav-link text-sm font-medium text-white/90 hover:text-earth-light transition-colors">Hardscaping</a>
+            <a href="#products" class="nav-link text-sm font-medium text-white/90 hover:text-earth-light transition-colors">Products</a>
+            <a href="#contact" class="bg-earth hover:bg-earth-light text-white px-5 py-2.5 rounded-lg text-sm font-semibold transition-all hover:shadow-lg">Get a Free Estimate</a>
+          </div>
+
+          <!-- Mobile hamburger -->
+          <button id="menu-toggle" class="lg:hidden flex flex-col gap-1.5 p-2 group" aria-label="Toggle menu">
+            <span class="block w-6 h-0.5 bg-white transition-all duration-300 origin-center group-[.active]:rotate-45 group-[.active]:translate-y-2"></span>
+            <span class="block w-6 h-0.5 bg-white transition-all duration-300 group-[.active]:opacity-0"></span>
+            <span class="block w-6 h-0.5 bg-white transition-all duration-300 origin-center group-[.active]:-rotate-45 group-[.active]:-translate-y-2"></span>
+          </button>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="mobile-menu lg:hidden">
+          <div class="pb-6 pt-2 flex flex-col gap-3">
+            <a href="#services" class="mobile-nav-link text-white/90 hover:text-earth-light px-3 py-2 text-base font-medium transition-colors">Services</a>
+            <a href="#about" class="mobile-nav-link text-white/90 hover:text-earth-light px-3 py-2 text-base font-medium transition-colors">About</a>
+            <a href="#gallery" class="mobile-nav-link text-white/90 hover:text-earth-light px-3 py-2 text-base font-medium transition-colors">Gallery</a>
+            <a href="#hardscape" class="mobile-nav-link text-white/90 hover:text-earth-light px-3 py-2 text-base font-medium transition-colors">Hardscaping</a>
+            <a href="#products" class="mobile-nav-link text-white/90 hover:text-earth-light px-3 py-2 text-base font-medium transition-colors">Products</a>
+            <a href="#contact" class="bg-earth hover:bg-earth-light text-white px-5 py-2.5 rounded-lg text-sm font-semibold text-center transition-all mt-2">Get a Free Estimate</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ═══════════ HERO ═══════════ -->
+    <section id="hero" class="relative min-h-screen flex items-center overflow-hidden">
+      <!-- Background -->
+      <div class="absolute inset-0 bg-forest-dark hero-pattern"></div>
+      <div class="absolute inset-0 hero-gradient"></div>
+      <!-- Decorative SVG shapes -->
+      <svg class="absolute top-20 right-10 w-64 h-64 opacity-5 float-animation" viewBox="0 0 200 200"><path d="M100 10 C60 40, 20 80, 50 120 C70 150, 100 180, 100 180 C100 180, 130 150, 150 120 C180 80, 140 40, 100 10Z" fill="white"/></svg>
+      <svg class="absolute bottom-20 left-10 w-48 h-48 opacity-5 float-animation" style="animation-delay: 2s" viewBox="0 0 200 200"><path d="M100 10 C60 40, 20 80, 50 120 C70 150, 100 180, 100 180 C100 180, 130 150, 150 120 C180 80, 140 40, 100 10Z" fill="white"/></svg>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
+        <div class="max-w-3xl">
+          <!-- Credential badges -->
+          <div class="flex flex-wrap gap-3 mb-8 animate-on-scroll">
+            <span class="credential-badge bg-white/10 text-white/90 text-xs font-semibold px-3 py-1.5 rounded-full border border-white/20">ICPI Certified</span>
+            <span class="credential-badge bg-white/10 text-white/90 text-xs font-semibold px-3 py-1.5 rounded-full border border-white/20">NCMA Certified</span>
+            <span class="credential-badge bg-white/10 text-white/90 text-xs font-semibold px-3 py-1.5 rounded-full border border-white/20">15+ Years Experience</span>
+          </div>
+
+          <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight mb-6 animate-on-scroll delay-1">
+            Expert Landscaping<br/>
+            <span class="text-earth-light">Built to Last</span>
+          </h1>
+
+          <p class="text-lg sm:text-xl text-white/80 max-w-xl mb-10 leading-relaxed animate-on-scroll delay-2">
+            Full-service landscape design, hardscaping, and maintenance for Rochester, NY homes and businesses. Quality craftsmanship backed by industry certifications.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4 animate-on-scroll delay-3">
+            <a href="#contact" class="cta-pulse bg-earth hover:bg-earth-light text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:shadow-xl text-center">
+              Get Your Free Estimate
+            </a>
+            <a href="#services" class="border-2 border-white/30 hover:border-white/60 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all hover:bg-white/10 text-center">
+              View Our Services
+            </a>
+          </div>
+
+          <!-- Quick stats -->
+          <div class="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-white/15 animate-on-scroll delay-4">
+            <div>
+              <div class="text-3xl sm:text-4xl font-heading font-bold text-earth-light"><span class="counter" data-target="20">0</span>+</div>
+              <div class="text-sm text-white/60 mt-1">Years Experience</div>
+            </div>
+            <div>
+              <div class="text-3xl sm:text-4xl font-heading font-bold text-earth-light"><span class="counter" data-target="4">0</span></div>
+              <div class="text-sm text-white/60 mt-1">Expert Crews</div>
+            </div>
+            <div>
+              <div class="text-3xl sm:text-4xl font-heading font-bold text-earth-light"><span class="counter" data-target="3">0</span> Yr</div>
+              <div class="text-sm text-white/60 mt-1">Labor Warranty</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+        <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICES ═══════════ -->
+    <section id="services" class="py-24 bg-warm-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-on-scroll">
+          <span class="text-earth font-semibold text-sm tracking-widest uppercase">What We Do</span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mt-3">Our Services</h2>
+          <p class="text-warm-gray max-w-2xl mx-auto mt-4 text-lg">From landscape design to hardscape installation, lawn care to snow removal — we handle every aspect of your outdoor space.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service 1: Landscape Design -->
+          <div class="service-card bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-1">
+            <div class="w-14 h-14 bg-forest/10 rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-forest" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/></svg>
+            </div>
+            <h3 class="font-heading text-xl font-bold text-forest mb-3">Landscape Design & Installation</h3>
+            <p class="text-warm-gray leading-relaxed">Custom on-site consultations and full design services. New landscapes or complete overhauls — including hardscaping, pergolas, lighting, and creative plantings.</p>
+          </div>
+
+          <!-- Service 2: Paver Patios -->
+          <div class="service-card bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-2">
+            <div class="w-14 h-14 bg-earth/10 rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-earth" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zm0 9.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zm0 9.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25a2.25 2.25 0 01-2.25-2.25v-2.25z"/></svg>
+            </div>
+            <h3 class="font-heading text-xl font-bold text-forest mb-3">Paver Patios & Walls</h3>
+            <p class="text-warm-gray leading-relaxed">ICPI & NCMA certified installations. Natural stone, permeable pavers, clay, and concrete options. Fire pits, outdoor kitchens, sitting walls, and more.</p>
+          </div>
+
+          <!-- Service 3: Lawn Maintenance -->
+          <div class="service-card bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-3">
+            <div class="w-14 h-14 bg-sage/10 rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-sage" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 6v6m0 0v6m0-6h6m-6 0H6"/><circle cx="12" cy="12" r="10" stroke-width="1.5"/></svg>
+            </div>
+            <h3 class="font-heading text-xl font-bold text-forest mb-3">Lawn Maintenance</h3>
+            <p class="text-warm-gray leading-relaxed">Mowing, seasonal cleanups, shrub trimming, garden bed weeding, mulching, and edging. Per-trip or seasonal contracts for residential and commercial properties.</p>
+          </div>
+
+          <!-- Service 4: Water Features -->
+          <div class="service-card bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-1">
+            <div class="w-14 h-14 bg-forest/10 rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-forest" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 3c-1.2 2-4 5-4 8a4 4 0 008 0c0-3-2.8-6-4-8z"/><path d="M7 21c1-1 2-2 5-2s4 1 5 2"/><path d="M5 18c1-1 2.5-2 7-2s6 1 7 2"/></svg>
+            </div>
+            <h3 class="font-heading text-xl font-bold text-forest mb-3">Water Features</h3>
+            <p class="text-warm-gray leading-relaxed">Custom streams, waterfalls, and ponds designed as stunning focal points. Includes optional maintenance plans to keep your water features pristine year-round.</p>
+          </div>
+
+          <!-- Service 5: Lighting -->
+          <div class="service-card bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-2">
+            <div class="w-14 h-14 bg-earth/10 rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-earth" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"/></svg>
+            </div>
+            <h3 class="font-heading text-xl font-bold text-forest mb-3">Landscape Lighting</h3>
+            <p class="text-warm-gray leading-relaxed">Low-voltage LED pathway, focal, patio, and pillar lighting. Transform your property's character and extend your outdoor enjoyment into the evening hours.</p>
+          </div>
+
+          <!-- Service 6: Commercial / Snow -->
+          <div class="service-card bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-3">
+            <div class="w-14 h-14 bg-sage/10 rounded-xl flex items-center justify-center mb-6">
+              <svg class="w-7 h-7 text-sage" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3H21m-3.75 3H21"/></svg>
+            </div>
+            <h3 class="font-heading text-xl font-bold text-forest mb-3">Commercial Services</h3>
+            <p class="text-warm-gray leading-relaxed">Full commercial maintenance, annual flower programs, and around-the-clock snow plowing and salting. Truck, loader, and bobcat equipment for any scale.</p>
+          </div>
+        </div>
+
+        <div class="text-center mt-12 animate-on-scroll">
+          <a href="#contact" class="inline-flex items-center gap-2 text-earth hover:text-earth-dark font-semibold text-lg transition-colors group">
+            Discuss your project with us
+            <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ ABOUT ═══════════ -->
+    <section id="about" class="py-24 bg-sand">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <!-- Left: Image placeholder -->
+          <div class="animate-left">
+            <div class="relative">
+              <div class="bg-gradient-to-br from-forest to-forest-light rounded-2xl aspect-[4/3] flex items-center justify-center shadow-2xl">
+                <div class="text-center p-8">
+                  <svg class="w-24 h-24 text-white/20 mx-auto mb-4" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><path d="M12 6v6m0 0v6m0-6h6m-6 0H6"/><circle cx="12" cy="12" r="10"/></svg>
+                  <p class="text-white/40 text-sm">Team photo</p>
+                </div>
+              </div>
+              <!-- Floating accent card -->
+              <div class="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-xl p-6 max-w-[200px]">
+                <div class="text-3xl font-heading font-bold text-earth">Since</div>
+                <div class="text-4xl font-heading font-bold text-forest">2005</div>
+                <div class="text-sm text-warm-gray mt-1">Serving Rochester</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="animate-right">
+            <span class="text-earth font-semibold text-sm tracking-widest uppercase">Our Story</span>
+            <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mt-3 mb-6">Built on Passion,<br/>Grown with Trust</h2>
+
+            <div class="space-y-4 text-warm-gray text-lg leading-relaxed">
+              <p>Owner <strong class="text-bark">Jason Fowler</strong> started his career in 1999 at one of New York's premier garden centers, spending a decade mastering hundreds of plant species and landscape techniques.</p>
+              <p>In Spring 2005, he turned that expertise into <strong class="text-bark">JMF Landscaping</strong> — and the company hasn't stopped growing since. What started as a single crew has expanded to <strong class="text-bark">four full crews</strong> by 2012, with continued year-over-year growth.</p>
+              <p>Every member of the team pursues ongoing education annually, ensuring your project benefits from the latest industry knowledge and techniques.</p>
+            </div>
+
+            <!-- Certifications -->
+            <div class="flex flex-wrap gap-4 mt-8">
+              <div class="flex items-center gap-3 bg-white rounded-lg px-5 py-3 shadow-sm border border-sand-dark">
+                <svg class="w-8 h-8 text-earth" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/></svg>
+                <div>
+                  <div class="font-bold text-forest text-sm">ICPI Advanced</div>
+                  <div class="text-xs text-warm-gray">Certified Installer</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 bg-white rounded-lg px-5 py-3 shadow-sm border border-sand-dark">
+                <svg class="w-8 h-8 text-earth" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z"/></svg>
+                <div>
+                  <div class="font-bold text-forest text-sm">NCMA</div>
+                  <div class="text-xs text-warm-gray">Certified</div>
+                </div>
+              </div>
+              <div class="flex items-center gap-3 bg-white rounded-lg px-5 py-3 shadow-sm border border-sand-dark">
+                <svg class="w-8 h-8 text-earth" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M4.26 10.147a60.438 60.438 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.636 50.636 0 00-2.658-.813A59.906 59.906 0 0112 3.493a59.903 59.903 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5"/></svg>
+                <div>
+                  <div class="font-bold text-forest text-sm">Ongoing Education</div>
+                  <div class="text-xs text-warm-gray">Annual Training</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ GALLERY ═══════════ -->
+    <section id="gallery" class="py-24 bg-warm-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-on-scroll">
+          <span class="text-earth font-semibold text-sm tracking-widest uppercase">Our Work</span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mt-3">Project Gallery</h2>
+          <p class="text-warm-gray max-w-2xl mx-auto mt-4 text-lg">A sampling of landscaping, hardscaping, and outdoor living projects we've completed for customers throughout the Rochester region.</p>
+        </div>
+
+        <!-- Gallery grid -->
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <!-- Row 1: large feature + 2 small -->
+          <div class="gallery-item col-span-2 row-span-2 rounded-2xl relative group cursor-pointer animate-scale">
+            <div class="gallery-img bg-gradient-to-br from-forest via-forest-light to-sage w-full h-full min-h-[300px] md:min-h-[400px] rounded-2xl flex items-center justify-center">
+              <div class="text-center">
+                <svg class="w-16 h-16 text-white/20 mx-auto" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><path d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z"/></svg>
+              </div>
+            </div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-6">
+              <div><h4 class="text-white font-heading font-bold text-lg">Paver Patio</h4><p class="text-white/70 text-sm">Custom outdoor living space</p></div>
+            </div>
+          </div>
+
+          <div class="gallery-item rounded-2xl relative group cursor-pointer animate-scale delay-1">
+            <div class="gallery-img bg-gradient-to-br from-earth-dark via-earth to-earth-light w-full aspect-square rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Retaining Wall</h4></div>
+            </div>
+          </div>
+
+          <div class="gallery-item rounded-2xl relative group cursor-pointer animate-scale delay-2">
+            <div class="gallery-img bg-gradient-to-br from-sage via-sage-light to-forest-light w-full aspect-square rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Garden Design</h4></div>
+            </div>
+          </div>
+
+          <div class="gallery-item rounded-2xl relative group cursor-pointer animate-scale delay-3">
+            <div class="gallery-img bg-gradient-to-br from-bark via-bark-light to-earth-dark w-full aspect-square rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Water Feature</h4></div>
+            </div>
+          </div>
+
+          <div class="gallery-item rounded-2xl relative group cursor-pointer animate-scale delay-4">
+            <div class="gallery-img bg-gradient-to-br from-forest-light via-sage to-sage-light w-full aspect-square rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Walkway</h4></div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="gallery-item rounded-2xl relative group cursor-pointer animate-scale">
+            <div class="gallery-img bg-gradient-to-br from-sage-light via-forest-light to-forest w-full aspect-square rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Fire Pit Area</h4></div>
+            </div>
+          </div>
+
+          <div class="gallery-item rounded-2xl relative group cursor-pointer animate-scale delay-1">
+            <div class="gallery-img bg-gradient-to-br from-earth via-earth-dark to-bark w-full aspect-square rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Stone Steps</h4></div>
+            </div>
+          </div>
+
+          <div class="gallery-item col-span-2 rounded-2xl relative group cursor-pointer animate-scale delay-2">
+            <div class="gallery-img bg-gradient-to-r from-forest via-sage to-earth w-full aspect-[2/1] rounded-2xl"></div>
+            <div class="gallery-overlay absolute inset-0 bg-forest-dark/70 rounded-2xl flex items-end p-4">
+              <div><h4 class="text-white font-heading font-bold text-sm">Outdoor Kitchen & Living Space</h4></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-10 animate-on-scroll">
+          <p class="text-warm-gray">Over <strong class="text-forest">100+ projects</strong> completed throughout the Rochester region</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ HARDSCAPE SPECIALTY ═══════════ -->
+    <section id="hardscape" class="py-24 bg-forest-dark text-white overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16 items-center">
+          <!-- Left: Content -->
+          <div class="animate-left">
+            <span class="text-earth-light font-semibold text-sm tracking-widest uppercase">Our Specialty</span>
+            <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold mt-3 mb-6">Hardscape<br/>Experts</h2>
+            <p class="text-white/70 text-lg leading-relaxed mb-8">With over a decade specializing in paver patios and retaining walls, our ICPI and NCMA certified team delivers hardscape installations built to industry standards — and built to last.</p>
+
+            <div class="space-y-6">
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-earth/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-5 h-5 text-earth-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"/></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg">Natural Stone, Pavers & Concrete</h4>
+                  <p class="text-white/60 mt-1">Permeable pavers, clay, natural stone — we work with every major material and follow ICPI/NCMA guidelines on every installation.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-earth/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-5 h-5 text-earth-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"/></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg">Outdoor Living Features</h4>
+                  <p class="text-white/60 mt-1">Fire pits (gas or wood), sitting walls, benches, pillars, steps, outdoor kitchens, and fireplaces to complement any hardscape.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-earth/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-5 h-5 text-earth-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"/></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg">Cleaning, Sealing & Restoration</h4>
+                  <p class="text-white/60 mt-1">Professional cleaning and sealing protects against Rochester's climate. Choose wet look, shiny, or matte finishes to restore your patio's beauty.</p>
+                </div>
+              </div>
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 bg-earth/20 rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
+                  <svg class="w-5 h-5 text-earth-light" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"/></svg>
+                </div>
+                <div>
+                  <h4 class="font-bold text-lg">3-Year Labor Warranty</h4>
+                  <p class="text-white/60 mt-1">Every hardscape installation is backed by a three-year labor warranty plus manufacturer material warranties for total peace of mind.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Image placeholder -->
+          <div class="animate-right">
+            <div class="bg-gradient-to-br from-earth-dark via-bark to-bark-light rounded-2xl aspect-square flex items-center justify-center shadow-2xl">
+              <div class="text-center p-8">
+                <svg class="w-24 h-24 text-white/15 mx-auto mb-4" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 24 24"><path d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z"/></svg>
+                <p class="text-white/30 text-sm">Featured hardscape project</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ PROCESS ═══════════ -->
+    <section class="py-24 bg-sand">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-on-scroll">
+          <span class="text-earth font-semibold text-sm tracking-widest uppercase">How It Works</span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mt-3">Our Process</h2>
+          <p class="text-warm-gray max-w-2xl mx-auto mt-4 text-lg">From first call to finished project — here's how we bring your vision to life.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="text-center animate-on-scroll delay-1">
+            <div class="w-16 h-16 bg-earth text-white rounded-full flex items-center justify-center mx-auto text-2xl font-heading font-bold shadow-lg">1</div>
+            <h3 class="font-heading text-xl font-bold text-forest mt-6 mb-3">Free Consultation</h3>
+            <p class="text-warm-gray">Contact us for a complimentary on-site consultation. Visit our showroom or call to discuss your vision and goals.</p>
+          </div>
+          <div class="text-center animate-on-scroll delay-2">
+            <div class="w-16 h-16 bg-earth text-white rounded-full flex items-center justify-center mx-auto text-2xl font-heading font-bold shadow-lg">2</div>
+            <h3 class="font-heading text-xl font-bold text-forest mt-6 mb-3">Custom Design</h3>
+            <p class="text-warm-gray">Our design team creates a tailored plan incorporating your ideas, budget, and property's unique characteristics.</p>
+          </div>
+          <div class="text-center animate-on-scroll delay-3">
+            <div class="w-16 h-16 bg-earth text-white rounded-full flex items-center justify-center mx-auto text-2xl font-heading font-bold shadow-lg">3</div>
+            <h3 class="font-heading text-xl font-bold text-forest mt-6 mb-3">Expert Installation</h3>
+            <p class="text-warm-gray">Our certified crews execute the plan with precision, following ICPI and NCMA standards on every project.</p>
+          </div>
+          <div class="text-center animate-on-scroll delay-4">
+            <div class="w-16 h-16 bg-earth text-white rounded-full flex items-center justify-center mx-auto text-2xl font-heading font-bold shadow-lg">4</div>
+            <h3 class="font-heading text-xl font-bold text-forest mt-6 mb-3">Warranty & Care</h3>
+            <p class="text-warm-gray">Enjoy your new space backed by our labor warranty and optional ongoing maintenance plans.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ BULK PRODUCTS & RENTALS ═══════════ -->
+    <section id="products" class="py-24 bg-warm-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16 animate-on-scroll">
+          <span class="text-earth font-semibold text-sm tracking-widest uppercase">Beyond Landscaping</span>
+          <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mt-3">Bulk Products & Rentals</h2>
+          <p class="text-warm-gray max-w-2xl mx-auto mt-4 text-lg">Pickup or delivery of bulk landscaping materials plus roll-off dumpster rentals for your renovation projects.</p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-12">
+          <!-- Bulk Products -->
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-1">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 bg-earth/10 rounded-xl flex items-center justify-center">
+                <svg class="w-6 h-6 text-earth" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5m8.25 3v6.75m0 0l-3-3m3 3l3-3M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-forest">Bulk Materials</h3>
+            </div>
+            <p class="text-warm-gray mb-6">We stock a full range of bulk landscaping materials — available for pickup at our yard or delivered to your site.</p>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Brown Mulch</div>
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Black Mulch</div>
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Washed Stone</div>
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Pea Stone</div>
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Crushed Stone</div>
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Patio Sand</div>
+              <div class="flex items-center gap-2 text-bark"><svg class="w-4 h-4 text-earth flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3"/></svg> Screened Topsoil</div>
+            </div>
+            <p class="text-sm text-warm-gray mt-4 italic">Call ahead for pricing and availability.</p>
+          </div>
+
+          <!-- Roll-Off Rentals -->
+          <div class="bg-white rounded-2xl p-8 shadow-sm border border-sand-dark animate-on-scroll delay-2">
+            <div class="flex items-center gap-4 mb-6">
+              <div class="w-12 h-12 bg-forest/10 rounded-xl flex items-center justify-center">
+                <svg class="w-6 h-6 text-forest" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-forest">Roll-Off Rentals</h3>
+            </div>
+            <p class="text-warm-gray mb-6">Steel roll-off dumpsters for renovations, remodels, and cleanouts. Quick delivery, careful drivers.</p>
+
+            <div class="space-y-4">
+              <div class="bg-sand rounded-xl p-5">
+                <div class="flex justify-between items-center">
+                  <div>
+                    <h4 class="font-bold text-forest text-lg">15-Yard Container</h4>
+                    <p class="text-warm-gray text-sm">Residential & light commercial</p>
+                  </div>
+                  <span class="bg-forest text-white text-sm font-semibold px-3 py-1 rounded-lg">3-Day Rental</span>
+                </div>
+              </div>
+              <div class="bg-sand rounded-xl p-5">
+                <div class="flex justify-between items-center">
+                  <div>
+                    <h4 class="font-bold text-forest text-lg">20-Yard Container</h4>
+                    <p class="text-warm-gray text-sm">Larger renovations & remodels</p>
+                  </div>
+                  <span class="bg-forest text-white text-sm font-semibold px-3 py-1 rounded-lg">3-Day Rental</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-sm text-warm-gray mt-4 italic">Dumping fee included. Call for pricing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ SERVICE AREA ═══════════ -->
+    <section class="py-20 bg-forest text-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center animate-on-scroll">
+          <span class="text-earth-light font-semibold text-sm tracking-widest uppercase">Proudly Serving</span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-bold mt-3 mb-8">Greater Rochester, NY</h2>
+          <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Rochester</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Greece</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Gates</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Chili</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Henrietta</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Irondequoit</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Brighton</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Penfield</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Webster</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Fairport</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Pittsford</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Spencerport</span>
+            <span class="bg-white/10 border border-white/20 px-4 py-2 rounded-full text-sm font-medium">Batavia</span>
+            <span class="bg-earth/30 border border-earth/40 px-4 py-2 rounded-full text-sm font-medium text-earth-light">& Surrounding Areas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ CONTACT / CTA ═══════════ -->
+    <section id="contact" class="py-24 bg-sand">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-2 gap-16">
+          <!-- Left: Info -->
+          <div class="animate-left">
+            <span class="text-earth font-semibold text-sm tracking-widest uppercase">Get In Touch</span>
+            <h2 class="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-forest mt-3 mb-6">Ready to Transform<br/>Your Outdoor Space?</h2>
+            <p class="text-warm-gray text-lg leading-relaxed mb-10">Contact us for a free estimate. Whether it's a new patio, a complete landscape redesign, or seasonal maintenance — we'd love to hear about your project.</p>
+
+            <div class="space-y-6">
+              <!-- Phone -->
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-forest rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm text-warm-gray">Call us today</div>
+                  <a href="tel:585-730-4691" class="text-xl font-bold text-forest hover:text-earth transition-colors">(585) 730-4691</a>
+                </div>
+              </div>
+
+              <!-- Address -->
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-forest rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm text-warm-gray">Visit our showroom</div>
+                  <div class="font-bold text-forest">4000 Buffalo Road, Rochester, NY 14624</div>
+                </div>
+              </div>
+
+              <!-- Hours -->
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-forest rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm text-warm-gray">Office hours</div>
+                  <div class="font-bold text-forest">Mon – Fri: 9:00 AM – 3:00 PM</div>
+                  <div class="text-sm text-warm-gray">Seasonal hours may vary</div>
+                </div>
+              </div>
+
+              <!-- Facebook -->
+              <div class="flex items-center gap-4">
+                <div class="w-12 h-12 bg-forest rounded-xl flex items-center justify-center flex-shrink-0">
+                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                </div>
+                <div>
+                  <div class="text-sm text-warm-gray">Follow us</div>
+                  <a href="https://www.facebook.com/pages/JMF-Landscaping-LLC/800179553387908" target="_blank" rel="noopener" class="font-bold text-forest hover:text-earth transition-colors">Facebook Page →</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Contact Form -->
+          <div class="animate-right">
+            <form class="bg-white rounded-2xl p-8 shadow-lg border border-sand-dark">
+              <h3 class="font-heading text-2xl font-bold text-forest mb-6">Request a Free Estimate</h3>
+              <div class="space-y-4">
+                <div class="grid sm:grid-cols-2 gap-4">
+                  <div>
+                    <label class="block text-sm font-medium text-bark mb-1">Your Name *</label>
+                    <input type="text" class="w-full px-4 py-3 rounded-lg border border-sand-dark focus:border-earth focus:ring-2 focus:ring-earth/20 outline-none transition-all bg-sand/50" placeholder="John Smith" />
+                  </div>
+                  <div>
+                    <label class="block text-sm font-medium text-bark mb-1">Phone *</label>
+                    <input type="tel" class="w-full px-4 py-3 rounded-lg border border-sand-dark focus:border-earth focus:ring-2 focus:ring-earth/20 outline-none transition-all bg-sand/50" placeholder="(585) 000-0000" />
+                  </div>
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-bark mb-1">Email *</label>
+                  <input type="email" class="w-full px-4 py-3 rounded-lg border border-sand-dark focus:border-earth focus:ring-2 focus:ring-earth/20 outline-none transition-all bg-sand/50" placeholder="john@example.com" />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-bark mb-1">Type of Service</label>
+                  <select class="w-full px-4 py-3 rounded-lg border border-sand-dark focus:border-earth focus:ring-2 focus:ring-earth/20 outline-none transition-all bg-sand/50 text-bark">
+                    <option value="">Select a service...</option>
+                    <option>Landscape Design & Installation</option>
+                    <option>Paver Patios & Retaining Walls</option>
+                    <option>Commercial Lawn Maintenance</option>
+                    <option>Commercial Snow Removal</option>
+                    <option>Roll-Off Rental</option>
+                    <option>Bulk Products</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-sm font-medium text-bark mb-1">Tell us about your project *</label>
+                  <textarea rows="4" class="w-full px-4 py-3 rounded-lg border border-sand-dark focus:border-earth focus:ring-2 focus:ring-earth/20 outline-none transition-all bg-sand/50 resize-none" placeholder="Describe what you're looking for..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-earth hover:bg-earth-dark text-white font-semibold py-4 rounded-lg transition-all hover:shadow-lg text-lg">
+                  Send Request
+                </button>
+                <p class="text-xs text-warm-gray text-center">We'll get back to you within one business day.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ FOOTER ═══════════ -->
+    <footer class="bg-forest-dark text-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+          <!-- Brand -->
+          <div class="lg:col-span-1">
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-10 h-10 bg-earth rounded-lg flex items-center justify-center">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22c-4-3-8-6-8-10a8 8 0 0116 0c0 4-4 7-8 10z"/><path d="M12 2c-2 4-1 8 0 10s2 4 0 6"/><path d="M9 8c2 1 4 1 6 0"/></svg>
+              </div>
+              <div>
+                <span class="text-xl font-heading font-bold">JMF Landscaping</span>
+              </div>
+            </div>
+            <p class="text-white/60 text-sm leading-relaxed">Full-service landscaping company proudly serving the Greater Rochester area for over 15 years.</p>
+            <div class="flex items-center gap-2 mt-4">
+              <span class="bg-white/10 text-white/80 text-xs font-medium px-2 py-1 rounded">ICPI</span>
+              <span class="bg-white/10 text-white/80 text-xs font-medium px-2 py-1 rounded">NCMA</span>
+            </div>
+          </div>
+
+          <!-- Services -->
+          <div>
+            <h4 class="font-heading font-bold text-lg mb-4">Services</h4>
+            <ul class="space-y-2 text-white/60 text-sm">
+              <li><a href="#services" class="hover:text-earth-light transition-colors">Landscape Design</a></li>
+              <li><a href="#hardscape" class="hover:text-earth-light transition-colors">Paver Patios & Walls</a></li>
+              <li><a href="#services" class="hover:text-earth-light transition-colors">Lawn Maintenance</a></li>
+              <li><a href="#services" class="hover:text-earth-light transition-colors">Water Features</a></li>
+              <li><a href="#services" class="hover:text-earth-light transition-colors">Landscape Lighting</a></li>
+              <li><a href="#services" class="hover:text-earth-light transition-colors">Snow Removal</a></li>
+            </ul>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h4 class="font-heading font-bold text-lg mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-white/60 text-sm">
+              <li><a href="#about" class="hover:text-earth-light transition-colors">About JMF</a></li>
+              <li><a href="#gallery" class="hover:text-earth-light transition-colors">Photo Gallery</a></li>
+              <li><a href="#products" class="hover:text-earth-light transition-colors">Bulk Products</a></li>
+              <li><a href="#products" class="hover:text-earth-light transition-colors">Roll-Off Rentals</a></li>
+              <li><a href="#contact" class="hover:text-earth-light transition-colors">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4 class="font-heading font-bold text-lg mb-4">Contact</h4>
+            <ul class="space-y-3 text-white/60 text-sm">
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-earth-light flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+                <a href="tel:585-730-4691" class="hover:text-earth-light transition-colors">(585) 730-4691</a>
+              </li>
+              <li class="flex items-start gap-2">
+                <svg class="w-4 h-4 text-earth-light flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
+                4000 Buffalo Road<br/>Rochester, NY 14624
+              </li>
+              <li class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-earth-light flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                Mon–Fri: 9am – 3pm
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-t border-white/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+          <p class="text-white/40 text-sm">&copy; 2025 JMF Landscaping, LLC. All Rights Reserved.</p>
+          <p class="text-white/30 text-xs">Partners: Batavia Turf &bull; Weckesser Brick</p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
